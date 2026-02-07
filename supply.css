@@ -67,3 +67,29 @@ hr {
 .Welcome hr{
     width: 100%;
 }
+#button{
+    font-size: 3rem;
+    border-radius: 3rem;
+    background-color: var(--add_button-color);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 3rem;
+    height: 3.7rem;
+    
+}
+.add_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.add{
+    display: flex;
+    flex-direction: row;
+}
+.add input{
+    font-size: 1rem;
+    margin: 0.5rem;
+    width: 10rem;
+}
